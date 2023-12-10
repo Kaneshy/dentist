@@ -3,6 +3,7 @@ import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import './globals.css'
 import Naviga from '@/components/Naviga'
+import Contact from '@/components/Contact'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -23,6 +24,7 @@ export default function RootLayout({ children }) {
         <Navbar />
         <Naviga />
         {children}
+        <Contact />
         <Footer />
       </body>
     </html>

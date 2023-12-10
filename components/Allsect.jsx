@@ -52,7 +52,7 @@ const Allsect = () => {
                         <div className={` ${isActive ? 'content-toggle ' : 'hidden'}  w-full bg-color-b text-neutral-900 flex flex-col justify-around  `}>
                             {ServicesData.map((z, index) => {
                                 return (
-                                    <Link key={index} href="/" className="p-3 hover:bg-white"  >
+                                    <div key={index} className="p-3 hover:bg-white" onClick={() => handleScrollToSection(index)} >
                                         <motion.div
                                             initial={{ opacity: 0, x: -100 }}
                                             whileInView={{ opacity: 1, x: 0 }}
@@ -61,7 +61,7 @@ const Allsect = () => {
                                         >
                                             {z.title}
                                         </motion.div>
-                                    </Link>
+                                    </div>
                                 )
                             })}
                         </div>

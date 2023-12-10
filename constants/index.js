@@ -92,7 +92,7 @@ export const ServicesData = [
         title: 'PREVENTIVE TREATMENT',
         desc: 'La periodoncia se encarga de estudiar, prevenir y dar tratamiento a aquellas patologías que afectan a todos los tejidos que protegen y sujetan a los dientes (encía, hueso alveolar, ligamento periodontal y cemento radicular). Las enfermedades más comunes tratadas por el periodoncista es la gingivitis y la periodontitis mediante tratamientos de una o varias sesiones. Además, el periodoncista se encarga de tratar las recesiones gingivales que producen en la mayoría de los casos sensibilidad de los dientes.',
         descT:  [ 'Terapia Básica Periodontal','Raspado y Alisado Radicular','Injerto Gingival','Recesiones gingivales','Aumento de Corona','Gingivectomía','Cirugía plástica','Cirugía plástica periodontal'],
-        image: 'https://mauriciotinajero.com/wp-content/uploads/2022/07/unileao-ortodontia.jpg'
+        image: 'https://mauriciotinajero.com/wp-content/uploads/2022/07/Tratamento-de-Canal.jpg'
     },
     {
         title: 'CROWNS',
@@ -104,13 +104,13 @@ export const ServicesData = [
         title: 'PREVENTIVE TREATMENT',
         desc: 'La periodoncia se encarga de estudiar, prevenir y dar tratamiento a aquellas patologías que afectan a todos los tejidos que protegen y sujetan a los dientes (encía, hueso alveolar, ligamento periodontal y cemento radicular). Las enfermedades más comunes tratadas por el periodoncista es la gingivitis y la periodontitis mediante tratamientos de una o varias sesiones. Además, el periodoncista se encarga de tratar las recesiones gingivales que producen en la mayoría de los casos sensibilidad de los dientes.',
         descT:  [ 'Terapia Básica Periodontal','Raspado y Alisado Radicular','Injerto Gingival','Recesiones gingivales','Aumento de Corona','Gingivectomía','Cirugía plástica','Cirugía plástica periodontal'],
-        image: 'https://mauriciotinajero.com/wp-content/uploads/2022/07/periodontia-1.png'
+        image: 'https://mauriciotinajero.com/wp-content/uploads/2022/07/Tratamento-de-Canal.jpg'
     },
     {
         title: 'CROWNS',
         desc: 'La periodoncia se encarga de estudiar, prevenir y dar tratamiento a aquellas patologías que afectan a todos los tejidos que protegen y sujetan a los dientes (encía, hueso alveolar, ligamento periodontal y cemento radicular). Las enfermedades más comunes tratadas por el periodoncista es la gingivitis y la periodontitis mediante tratamientos de una o varias sesiones. Además, el periodoncista se encarga de tratar las recesiones gingivales que producen en la mayoría de los casos sensibilidad de los dientes.',
         descT:  [ 'Terapia Básica Periodontal','Raspado y Alisado Radicular','Injerto Gingival','Recesiones gingivales','Aumento de Corona','Gingivectomía','Cirugía plástica','Cirugía plástica periodontal'],
-        image: 'https://mauriciotinajero.com/wp-content/uploads/2022/07/unileao-ortodontia.jpg'
+        image: 'https://mauriciotinajero.com/wp-content/uploads/2022/07/pexels-cottonbro-6502306-scaled.jpg'
     }
 ]
 

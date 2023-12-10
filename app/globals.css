@@ -103,3 +103,10 @@
   transform: scale(1.1);
   transition-duration: 0.3s;
 }
+
+.img-services {
+  object-fit: contain;
+  width: 300px;
+  height: 370px;
+  background-color: #bdab71;
+}

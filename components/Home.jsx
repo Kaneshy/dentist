@@ -26,7 +26,7 @@ const MainHome = () => {
   return (
     <section>
       <Sections />
-      <div className="  home-widge-a p-6" >
+      <div className="home-widge-a p-6" >
         <motion.div
           className='  max-w-header w-full '
           transition={{ duration: 1 }}
@@ -38,7 +38,7 @@ const MainHome = () => {
             <h1>PIXELART MEDICINE</h1>
             <h2 className="flex font-bold text-4xl">ODONÓLOGOS EN QUITO </h2>
             <p>Nuestro equipo de odontólogos altamente capacitado está comprometido con tu bienestar dental, trabajando para que obtengas los mejores resultados posibles.</p>
-            <button className=" hover-btn-a bottom-10 p-2 mt-6 max-w-sm  left-1/4 bg-color-golden text-white text-2xl">Agenda tu cita </button>
+            <a href="https://wa.me/5930992931179/?text=I'm%20interested%20in%20an%20appoiment" className=" hover-btn-a bottom-10 p-2 mt-6 max-w-sm  left-1/4 bg-color-golden text-white text-center text-2xl">Agenda tu cita </a>
           </div>
         </motion.div>
       </div>

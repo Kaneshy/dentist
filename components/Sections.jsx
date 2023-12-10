@@ -28,7 +28,7 @@ const Page = () => {
 
 
     return (
-        <nav className="select-none ">
+        <nav className=" select-none ">
             <div className="  bg-color-a text-white ">
                 <div className=" flex  justify-around  max-sm:hidden p-3 ">
                     <div onClick={() => handleScrollToSection('a')} >
