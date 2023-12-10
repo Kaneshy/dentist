@@ -1,11 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import "~@flaticon/flaticon-uicons/css/all/all";
 
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --containersong-color: linear-gradient(225deg, #f2dc91 10%, #72532a  90%);
+  --containersong-colorB: linear-gradient(225deg, #f2dc91 10%, #bdab71  90%);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -16,12 +19,87 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+
+
+.home-widge-a {
+   /* Establece el tamaño y otras propiedades del contenedor */
+   display: flex;
+   width: 100%;
+   height: 700px; /* Altura de ejemplo */
+   /* Establece la imagen de fondo */
+   background-image: url('https://res.cloudinary.com/dh01ngdjo/image/upload/v1701983823/ff_knurxl.jpg'); /* Reemplaza 'ruta/de/tu/imagen.jpg' con la ruta de tu imagen */
+   background-size: cover; /* Ajusta el tamaño de la imagen para cubrir el contenedor */
+   background-position: center; /* Posiciona la imagen en el centro del contenedor */
+   background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+.bg-color-a{
+  background-color: #112D4E;
+}
+.bg-color-b{
+  background-color: #DBE2EF;
+}
+
+.bg-color-golden{
+  background: var(--containersong-color);
+}
+
+
+.bg-image-a {
+  /* Establece el tamaño y otras propiedades del contenedor */
+  /* Establece la imagen de fondo */
+  background-image: url('https://res.cloudinary.com/dh01ngdjo/image/upload/v1701983823/ff_knurxl.jpg'); /* Reemplaza 'ruta/de/tu/imagen.jpg' con la ruta de tu imagen */
+  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir el contenedor */
+  background-position: center; /* Posiciona la imagen en el centro del contenedor */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+.grid-sv {
+  width: 100%;
+  padding: 5px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  margin: 0 auto;
+}
+
+.home-sv-a {
+  width: 100%;
+  padding: 15px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  margin: 0 auto;
+  gap: 50px;
+  row-gap: 50px;
+}
+
+.max-w-header {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.shadow {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  border-radius: 5px;
+}
+
+.border {
+  border: 1px solid #ffffff;
+  border-radius: 100%;
+  padding: 13px 20px;
+}
+
+
+.container-toggle{
+  position: relative;
+}
+
+.content-toggle {
+  position: absolute;
+  top: 48px;
+  opacity: none;
+
+}
+
+.hover-btn-a:hover {
+  transform: scale(1.1);
+  transition-duration: 0.3s;
 }
